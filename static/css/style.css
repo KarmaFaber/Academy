@@ -1,0 +1,197 @@
+p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  a{
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color:#FB7F64;
+    }
+  body{
+    background: #F5EEE2;
+  }
+  .cuerpo{
+    margin-left:35px;
+    margin-right:45px;
+    }
+  h1{
+    padding-left: 25px;
+    padding-top: 40px;
+    margin-top: 15px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight:800;
+  }
+  h2{
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight:400;
+  }
+  h3{
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight:200;
+  }
+  h4{
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight:200;
+  }
+
+
+
+  .barra-color-inicio{
+    background-color: #C6B895;
+    padding-top: 30px;
+    margin: 0px; 
+  }
+  .logo-login-grid {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: auto;
+    background: #3C303E;
+  }
+  .logo{
+    color: #FB7F64;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3em;
+    padding-left: 15px;
+  }
+  .foot-logo{
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-family: 'Fredericka the Great', cursive;
+    }
+
+  footer{
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+    }
+
+  .footer-bar{
+    
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: auto;
+    background: #3C303E;
+    color: #FB7F64;
+    font-size: 2em;
+    padding: 0px;
+  }
+  
+  .foot-legal{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 25px;
+    }
+  .barra-color-fin{
+    background-color: #C6B895;
+    padding-bottom: 30px;
+    top: 0px;
+  }
+  .boton{
+    margin-left: 10px;
+  }
+  .espacio{
+    margin-left: 20px;
+  }
+  .buscador{
+    margin-top:15px;
+  }
+
+
+
+
+
+
+
+
+
+  /* css ingresar -----------------------------------------------------------------------------*/
+  /* Fondo de la página */
+.fondo{
+  background: #e96443;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* contenedor de formularios: caracteristicas generales */
+.form-container{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-size: cover;
+  background-position: center;
+  perspective: 1000px;
+  
+}
+
+/* Formulario */
+.form-container form{
+  height:450px;
+  width:350px;
+  background: rgba(255,255,255,.4);
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 5px 15 px egba(0,0,0,.3);
+  border-top: 1px solid rgba(255, 255, 255,.3);
+  border-left: 1px solid sgba(255,255,255.3);
+  backdrop-filter: blur(10px);
+  transform-style: preserv-3g;
+}
+
+/* Título */
+.form-container form h3{
+  font-size: 30px;
+  padding:30px 0;
+  color:#592f54;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 25px #b15678;
+}
+
+/* cuadros de texto */
+.form-container form input{
+  outline: none;
+  border: none;
+  height:40px;
+  width: 82%;
+  background: rgba(0,0,0,.1);
+  color: rgba(255,255,255,.7);
+  box-shadow: 0 0 5px rgba(0,0,0,.5) inset;
+  font-size: 17px;
+  padding: 0 10px;
+  margin: 15px 0;
+  letter-spacing: 1px;
+  border-radius: 15px;
+}
+.form-container form input[type="submit"]{
+  width:90%;
+  cursor: pointer;
+  background:linear-gradient(90deg,deeppink, blueviolet);
+  margin-top: 30px;
+  border-radius: 50px;
+}
+.form-container form input[type="submit"]:hover
+{
+  letter-spacing: 4px;
+}
